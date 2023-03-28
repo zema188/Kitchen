@@ -1,0 +1,925 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: #939598;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  --width__nav-item: 0px;
+}
+
+body {
+  font-family: "Manrope";
+}
+
+.page-w {
+  overflow-x: hidden;
+}
+
+.button-download button {
+  background: linear-gradient(91.15deg, #F8D833 0%, #FFD600 101.35%);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 128.19%;
+  color: #000000;
+  padding: 23px 85px 26px 49px;
+  position: relative;
+}
+
+.button-download button:hover {
+  background: linear-gradient(91.15deg, #F1E086 0%, #F9E26C 101.35%);
+}
+
+.button-download button::after {
+  content: "";
+  position: absolute;
+  background: url(../img/download.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 19px;
+  height: 20px;
+  right: 46px;
+  top: 26px;
+}
+
+.container {
+  max-width: 1275px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.kitchen-w {
+  background: url(../img/kitchen-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.kitchen {
+  color: #FFFFFF;
+  padding-top: 92px;
+  padding-bottom: 68px;
+  position: relative;
+}
+
+.kitchen__img img {
+  position: absolute;
+  z-index: 2;
+  top: 31%;
+  left: 462px;
+  width: 28%;
+}
+
+.kitchen__title {
+  font-weight: 500;
+  font-size: 48px;
+  font-size: calc(24px + 1.25vw);
+  line-height: 129%;
+  max-width: 536px;
+  margin-bottom: 33px;
+}
+
+.kitchen__title span {
+  display: block;
+  color: #FFD600;
+}
+
+.kitchen__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 128.19%;
+  max-width: 503px;
+  margin-bottom: 55px;
+}
+
+.kitchen__text span {
+  color: #FFD600;
+}
+
+.kitchen__button {
+  margin-bottom: 68px;
+}
+
+.kitchen__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kitchen__item {
+  background: linear-gradient(112.49deg, #262626 -0.37%, #000000 64.94%);
+  box-shadow: 0px 0px 60.3903px -18.2129px #000000;
+  padding-top: 27px;
+  padding-left: 92px;
+  position: relative;
+  padding-bottom: 12px;
+  flex: 0 0 30%;
+}
+
+.kitchen__item span {
+  color: #FFD600;
+}
+
+.kitchen__item:last-child {
+  padding-top: 20px;
+  padding-left: 99px;
+}
+
+.kitchen__item:nth-child(2) {
+  padding-left: 111px;
+}
+
+.kitchen__item img {
+  position: absolute;
+  left: 19px;
+}
+
+.kitchen__item-title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 147.69%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  max-width: 245px;
+}
+
+.kitchen__item-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 128.19%;
+  max-width: 228px;
+}
+
+.instructions-w {
+  background: url(../img/instructions-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.instructions {
+  position: relative;
+  padding-top: 95px;
+  padding-left: 87px;
+}
+
+.instructions::after {
+  content: "";
+  position: absolute;
+  background: url(../img/man.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 542px;
+  height: 788px;
+  top: 47px;
+  left: 0;
+}
+
+.instructions__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructions__item-script {
+  background: linear-gradient(109.2deg, #E0E0E0 0.02%, #FFFFFF 39.6%, #FFFFFF 61.47%, #E1DFDF 81.77%, #E4E4E4 100%);
+  opacity: 0.96;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 128.19%;
+  color: #4D4D4D;
+  position: relative;
+  text-align: center;
+  flex: 0 0 31.2%;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: 172px;
+  z-index: 2;
+  margin-top: 473px;
+}
+
+.instructions__item-script::before {
+  content: "";
+  position: absolute;
+  background: url(../img/gear.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 108px;
+  left: 53%;
+  top: 7px;
+  transform: translate(-50%, -77px);
+}
+
+.instructions__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructions__text span {
+  color: #E9C713;
+}
+
+.instructions__title {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 122%;
+  color: #3F3F3F;
+  margin-bottom: 32px;
+  text-align: center;
+  max-width: 748px;
+}
+
+.instructions__subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 128.19%;
+  color: #505050;
+  margin-bottom: 38px;
+  max-width: 600px;
+  text-align: center;
+  margin-left: 84px;
+}
+
+.instructions__items {
+  background: rgba(255, 255, 255, 0.22);
+  padding-top: 36px;
+  padding-bottom: 61px;
+}
+
+.instructions__item {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 130.69%;
+  text-align: center;
+  max-width: 519px;
+  margin: 0 auto 18px;
+}
+
+.instructions__item img {
+  display: block;
+  margin: 0 auto 4px;
+}
+
+.download-w {
+  background: url(../img/download-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.download {
+  position: relative;
+  padding-bottom: 119px;
+  padding-top: 46px;
+}
+
+.download__title {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 63px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.download__img img {
+  position: absolute;
+  z-index: 2;
+  top: 35.4%;
+  width: 34%;
+  left: 65%;
+}
+
+.download__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128.19%;
+  text-align: center;
+  color: #A3A3A3;
+  margin-bottom: 77px;
+}
+
+.download__content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 942px;
+  margin-bottom: 19px;
+}
+
+.download__item {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 136.19%;
+  color: #FFFFFF;
+  position: relative;
+  flex: 0 0 50%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.download__item:nth-child(2) .download__item-text {
+  max-width: 322px;
+}
+
+.download__item:nth-child(3) .download__item-text {
+  max-width: 250px;
+}
+
+.download__item:nth-child(4) .download__item-text {
+  max-width: 250px;
+}
+
+.download__item img {
+  width: 55px;
+  height: 68px;
+}
+
+.download__item-text {
+  max-width: 361px;
+  margin-left: -10px;
+}
+
+.download__button {
+  margin-left: 170px;
+}
+
+@media (max-width: 1150px) {
+  .download__img img {
+    top: 46%;
+    width: 27%;
+    left: 72%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .kitchen {
+    padding-top: 10px;
+    padding-bottom: 28px;
+  }
+
+  .kitchen__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .kitchen__text {
+    font-size: 15px;
+    max-width: 236px;
+    margin-bottom: 30px;
+  }
+
+  .kitchen__button {
+    margin-bottom: 55px;
+  }
+
+  .button-download button {
+    font-size: 13px;
+    padding: 9px 31px 9px 11px;
+  }
+
+  .button-download button::after {
+    width: 13px;
+    height: 14px;
+    right: 10px;
+    top: 9px;
+  }
+
+  .kitchen__item-title {
+    font-size: 10px;
+  }
+
+  .kitchen__item-text {
+    font-size: 10px;
+  }
+
+  .kitchen__img img {
+    top: 20%;
+    left: 265px;
+  }
+
+  .kitchen__item img {
+    width: 102px;
+  }
+
+  .instructions__title {
+    font-size: 28px;
+  }
+
+  .instructions::after {
+    width: 391px;
+    height: 582px;
+    top: 188px;
+  }
+
+  .instructions__item-script {
+    font-size: 19px;
+  }
+
+  .instructions__item-script {
+    flex: 0 0 32%;
+    font-size: 17px;
+    padding-top: 39px;
+    padding-left: 3px;
+    padding-right: 3px;
+    max-height: 132px;
+  }
+
+  .instructions {
+    padding-left: 8px;
+  }
+
+  .instructions__subtitle {
+    margin-left: 0px;
+  }
+
+  .download__title {
+    font-size: 28px;
+  }
+
+  .download__img img {
+    top: 72%;
+    width: 28%;
+    left: 38%;
+  }
+
+  .download__button {
+    margin-left: 0px;
+  }
+
+  .instructions__content {
+    padding-left: 53px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .button-download button {
+    font-size: 11px;
+    padding: 9px 26px 9px 5px;
+  }
+
+  .kitchen__img img {
+    top: 28%;
+    left: 222px;
+  }
+
+  .kitchen__item img {
+    width: 60px;
+    left: 5px;
+  }
+
+  .kitchen__item {
+    padding-left: 33px;
+    padding-right: 2px;
+  }
+
+  .kitchen__item:nth-child(2) {
+    padding-left: 36px;
+  }
+
+  .kitchen__item:last-child {
+    padding-top: 27px;
+    padding-left: 41px;
+  }
+
+  .button-download button::after {
+    right: 8px;
+  }
+
+  .instructions {
+    padding-top: 33px;
+    padding-bottom: 64px;
+  }
+
+  .instructions__content {
+    flex-direction: column-reverse;
+  }
+
+  .instructions__item-script {
+    margin-top: 10px;
+  }
+
+  .instructions__item-script {
+    max-width: 232px;
+    margin: 433px auto 0;
+    padding-bottom: 35px;
+  }
+
+  .instructions::after {
+    width: 417px;
+    height: 627px;
+    top: 710px;
+    left: 88px;
+  }
+
+  .instructions__content {
+    padding-left: 0px;
+  }
+
+  .download__title {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .download__subtitle {
+    font-size: 22px;
+  }
+
+  .download__content {
+    flex-direction: column;
+  }
+
+  .download__item-text {
+    max-width: none;
+    margin-left: 0px;
+  }
+
+  .download__item:nth-child(2) .download__item-text {
+    max-width: none;
+  }
+
+  .download__item:nth-child(3) .download__item-text {
+    max-width: none;
+  }
+
+  .download__item:nth-child(4) .download__item-text {
+    max-width: none;
+  }
+
+  .download__img img {
+    top: 72%;
+    width: 41%;
+    left: 30%;
+  }
+
+  .download__button {
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 199px;
+  }
+
+  .download__button button {
+    font-size: 19px;
+    padding: 9px 43px 9px 24px;
+  }
+
+  .download__button button::after {
+    right: 11px;
+    width: 18px;
+    height: 19px;
+    top: 10px;
+  }
+
+  .download {
+    padding-bottom: 31px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .kitchen-w {
+    background: url(../img/kitchen-bg-mob.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .kitchen {
+    padding-top: 42px;
+  }
+
+  .kitchen__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 129%;
+    margin-bottom: 40px;
+  }
+
+  .kitchen__text {
+    font-size: 12px;
+    text-align: center;
+    max-width: none;
+    margin-bottom: 30px;
+    max-width: 300px;
+    margin: 0px auto 50px;
+  }
+
+  .button-download button {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 128.19%;
+    padding: 8px 52px 8px 28px;
+  }
+
+  .button-download button span {
+    display: block;
+  }
+
+  .button-download button::after {
+    width: 19px;
+    height: 20px;
+    top: 15px;
+    right: 24px;
+  }
+
+  .kitchen__button {
+    padding-left: 18px;
+  }
+
+  .kitchen__img img {
+    top: 30.8%;
+    left: 195px;
+    width: 38%;
+  }
+
+  .kitchen__content {
+    flex-direction: column;
+  }
+
+  .kitchen__item {
+    padding-left: 47px;
+    padding-right: 2px;
+    margin: 0 auto 20px;
+    max-width: 270px;
+    padding-top: 13px;
+  }
+
+  .kitchen__item-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 147.69%;
+  }
+
+  .kitchen__item-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 128.19%;
+    max-width: 160px;
+  }
+
+  .kitchen__item:nth-child(1) img {
+    width: 109px;
+    left: 9px;
+    top: 9px;
+  }
+
+  .kitchen__item:nth-child(2) {
+    padding-left: 47px;
+    padding-right: 2px;
+  }
+
+  .kitchen__item:nth-child(2) img {
+    width: 68px;
+    left: 16px;
+    top: 20px;
+  }
+
+  .kitchen__item:nth-child(3) {
+    padding-left: 47px;
+    padding-right: 16px;
+  }
+
+  .kitchen__item:nth-child(3) span {
+    display: block;
+  }
+
+  .kitchen__item:nth-child(3) img {
+    width: 60px;
+    left: 9px;
+    top: 20px;
+  }
+
+  .kitchen__item img {
+    width: 109px;
+    left: 10px;
+    top: 30px;
+  }
+
+  .instructions__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 122%;
+  }
+
+  .instructions__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122%;
+    margin-bottom: 0px;
+  }
+
+  .instructions__items {
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+
+  .instructions__item {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130.69%;
+  }
+
+  .instructions::after {
+    width: 313px;
+    height: 372px;
+    top: 536px;
+    left: 26px;
+  }
+
+  .instructions__item-script {
+    max-width: 172px;
+    margin: 268px auto 0;
+    padding-bottom: 16px;
+    padding-top: 19px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 128.19%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .instructions__item-script::before {
+    width: 97px;
+    height: 94px;
+    left: 51%;
+    top: 11px;
+  }
+
+  .instructions {
+    padding-bottom: 30px;
+  }
+
+  .download-w {
+    background: url(../img/download-bg-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .download {
+    padding-left: 20px;
+  }
+
+  .download__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: start;
+  }
+
+  .download__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 128.19%;
+    text-align: start;
+    max-width: 288px;
+    margin-bottom: 36px;
+  }
+
+  .download__item-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 136.19%;
+    margin-left: -29px;
+    max-width: 250px;
+  }
+
+  .download__item:nth-child(4) .download__item-text {
+    max-width: 193px;
+  }
+
+  .download__item:nth-child(3) .download__item-text {
+    max-width: 193px;
+  }
+
+  .download__item:nth-child(2) .download__item-text {
+    max-width: 193px;
+  }
+
+  .download__img img {
+    top: 73%;
+    width: 71%;
+    left: 19%;
+    z-index: 0;
+  }
+
+  .download__button {
+    margin-top: 173px;
+  }
+
+  .download__button button {
+    padding: 14px 82px 14px 51px;
+  }
+
+  .download__button button::after {
+    top: 22px;
+    right: 37px;
+  }
+
+  .kitchen__item:last-child {
+    padding-top: 13px;
+  }
+}
